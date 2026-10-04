@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { AiOutlineEye , AiOutlineEyeInvisible  } from "react-icons/ai";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const SignupForm = () => {
@@ -31,7 +30,7 @@ const SignupForm = () => {
     function clickhandler(event){
          event.preventDefault();
 
-        if(signupData.password != signupData.conformpassword){
+        if(signupData.password !== signupData.conformpassword){
 
             toast.error("Passwords do not match");
 
