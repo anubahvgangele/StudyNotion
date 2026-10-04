@@ -49,7 +49,7 @@ function Template({title , desc1 , desc2 , image , formtype , setlogin}){
                 {/*     <img {frameImage} alt="pattern" width={558} height={504} loading="lazy" />
                     <img {image} alt="students" width={558} height={504} loading="lazy" /> */}
 
-                <img src={frame} w={558} height={504} loading="lazy" alt="image"/>
+                <img src={frame} w={558} height={504} loading="lazy" alt="icon"/>
                 <img src={image} w={558} height={490} loading="lazy" alt="frame"  className=" absolute -top-4 right-4 "/>
 
                
