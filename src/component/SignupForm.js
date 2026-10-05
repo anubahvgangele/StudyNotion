@@ -32,7 +32,7 @@ const SignupForm = () => {
 
         if(signupData.password !== signupData.conformpassword){
 
-            toast.error("Passwords do not match");
+            toast.error("Passwords are not matching");
 
             return;
         }
